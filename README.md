@@ -1,5 +1,5 @@
 # DistributeGames.com-SDK
-This repository contains the DistributeGames.com SDK for HTML5 games. This allows you to display advertisements in the games published within the DistributeGames.com network. https://distributegames.com
+This repository contains the DistributeGames.com SDK for HTML5 games. This allows you to display advertisements in the games published within the DistributeGames.com network. https://DistributeGames.com
 
 
 # HTML5 SDK - Implementation
@@ -7,8 +7,7 @@ This repository contains the DistributeGames.com SDK for HTML5 games. This allow
 Add following rows into your index.html file. Fill gameId and and use SDK events (mute audio, pause game and after that resume game logic)
 This will initialize DistributeGames.com SDK.
 
-<pre>
-<code><script type = "text/javascript" >
+<pre><code><script type = "text/javascript" >
    window.GD_OPTIONS = {
       gameId: "your_game_id_here",
       onEvent: function (a) {
@@ -38,6 +37,5 @@ This will initialize DistributeGames.com SDK.
 # Invoke an advertisement
 Now everything should be set up for you. All you need to do now in order monetise your game is to call sdk.showBanner() at the appropriate time in your game.
 
-<code>
-sdk.showBanner();
-</code>
+<pre><code>sdk.showBanner();
+</code><pre>
