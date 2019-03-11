@@ -31,11 +31,9 @@ This will initialize DistributeGames.com SDK.
    var d = a.getElementsByTagName(b)[0];
    a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://html5.distributegames.com/main.js", d.parentNode.insertBefore(a, d))
 })(document, "script", "distributegames-sdk"); <
-/script>
-</code></pre>
+/script></code></pre>
 
 # Invoke an advertisement
 Now everything should be set up for you. All you need to do now in order monetise your game is to call sdk.showBanner() at the appropriate time in your game.
 
-<pre><code>sdk.showBanner();
-</code><pre>
+<pre><code>sdk.showBanner();</code><pre>
