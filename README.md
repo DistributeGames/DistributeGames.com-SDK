@@ -39,7 +39,6 @@ This will initialize DistributeGames.com SDK.
 # Invoke an advertisement
 Now everything should be set up for you. All you need to do now in order monetise your game is to call sdk.showBanner() at the appropriate time in your game.
 
-<pre>
 <code>
 sdk.showBanner();
-</code></pre>
+</code>
