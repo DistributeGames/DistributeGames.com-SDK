@@ -29,7 +29,7 @@ This repository contains the DistributeGames.com SDK for HTML5 games. This allow
    };
 (function (a, b, c) {
    var d = a.getElementsByTagName(b)[0];
-   a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://html5.distributegames.com/main.js", d.parentNode.insertBefore(a, d))
+   a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://html5.distributegames.com/sdk.js", d.parentNode.insertBefore(a, d))
 })(document, "script", "distributegames-sdk"); <
 /script></code></pre>
 
