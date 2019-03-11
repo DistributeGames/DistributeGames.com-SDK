@@ -8,8 +8,7 @@ Add following rows into your index.html file. Fill gameId and and use SDK events
 This will initialize DistributeGames.com SDK.
 
 <pre>
-<code>
-<script type = "text/javascript" >
+<code><script type = "text/javascript" >
    window.GD_OPTIONS = {
       gameId: "your_game_id_here",
       onEvent: function (a) {
