@@ -3,10 +3,11 @@ This repository contains the DistributeGames.com SDK for HTML5 games. This allow
 
 
 # HTML5 SDK - Implementation
-
+<pre>
+<code>
    <script type="text/javascript">
     window.GD_OPTIONS = {
-    gameId: "rqh9oqsjhuilddqaxnggtcys6gnw4jpw",
+    gameId: "your_game_id",
     onEvent: function(a) {
         switch (a.name) {
                  case "SDK_GAME_PAUSE":
@@ -29,3 +30,4 @@ This repository contains the DistributeGames.com SDK for HTML5 games. This allow
     a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://html5.distributegames.com/main.js", d.parentNode.insertBefore(a, d))
 })(document, "script", "distributegames-sdk");
           </script>
+</code></pre>
