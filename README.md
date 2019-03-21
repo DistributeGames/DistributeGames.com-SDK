@@ -1,3 +1,6 @@
+<img src="https://avatars2.githubusercontent.com/u/48458546?s=460&v=4" width="100" alt="" data-canonical-src="https://avatars2.githubusercontent.com/u/48458546?s=460&v=4g">  &nbsp;&nbsp;
+<img src="https://distributegames.com/images/html5-logo.png" width="100" alt="" data-canonical-src="https://distributegames.com/images/html5-logo.png">
+
 # DistributeGames.com-SDK
 This repository contains the DistributeGames.com SDK for HTML5 games. This allows you to display advertisements in the games published within the DistributeGames.com network. https://DistributeGames.com
 
