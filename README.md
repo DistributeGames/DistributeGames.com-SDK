@@ -37,7 +37,7 @@ This repository contains the DistributeGames.com SDK for HTML5 games. This allow
 # Invoke an advertisement
 Now you must call sdk.showBanner() at the appropriate time in your game to show ads.
 
-<pre><code>sdk.showBanner();</code><pre>
+<pre><code>sdk.showBanner();</code></pre>
 
 # STEP 3:
 Now you can upload the game, Go to Game Management > My games > Select you game > Drop file to upload.
