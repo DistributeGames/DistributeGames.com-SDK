@@ -63,5 +63,6 @@ Submit game - click on button REQUEST ACTIVATION
 If you have any technical questions or comments, please email us at:
 info@distributegames.com
 
+
 Or simply check documentation on:
 https://distributegames.com/sdk
