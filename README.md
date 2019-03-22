@@ -48,7 +48,7 @@ Now you must call sdk.showBanner() at the appropriate time in your game to show 
 <pre><code>
 if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') {
 sdk.showBanner();
- }
+}
 </code></pre>
 
 # STEP 3:
