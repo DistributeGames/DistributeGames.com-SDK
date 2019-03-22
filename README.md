@@ -8,7 +8,7 @@ This repository contains the DistributeGames.com SDK for HTML5 games. This allow
 # STEP 1:
 # HTML5 SDK - Implementation
 <p>Add following rows into your index.html file (head section or body section). Fill gameId and use SDK events when you need it (mute audio, pause game and after that resume game logic).</p>
-<p>This will initialize DistributeGames.com SDK.</p>
+<p>This code will initialize DistributeGames.com HTML5 SDK</p>
 
 <pre><code><script type = "text/javascript" >
    window.SDK_OPTIONS = {
