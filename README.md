@@ -60,9 +60,9 @@ Verify SDK by click on button "Verify Game". This shows you that you have correc
 # STEP 5:
 Submit game - click on button REQUEST ACTIVATION
 
+# Support:
 If you have any technical questions or comments, please email us at:
 info@distributegames.com
-
 
 Or simply check documentation on:
 https://distributegames.com/sdk
