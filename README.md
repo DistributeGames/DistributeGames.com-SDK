@@ -40,7 +40,17 @@ This repository contains the DistributeGames.com SDK for HTML5 games. This allow
 # Invoke an advertisement
 Now you must call sdk.showBanner() at the appropriate time in your game to show ads.
 
-<pre><code>sdk.showBanner();</code></pre>
+<pre><code>
+if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') {
+sdk.showBanner();
+ }
+</code></pre>
+
+# STEP 3:
+# MANDATORY SETTINGS:
+1. Make sure to add your game hash (GameId), which you can retrieve from your DistributeGames.com control panel.
+2. Invoke a method to pause AND mute your game within the SDK_GAME_PAUSE event. Will be called every time a video advertisement is ready to play. It is important that the game is muted, as background audio through video advertisements is forbidden.
+3. Invoke a method to resume your game within the SDK_GAME_START event. Will be called every time a video advertisement is done playing.
 
 # STEP 3:
 Now you can upload the game, Go to Game Management > My games > Select you game > Drop file to upload.
