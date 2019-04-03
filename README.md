@@ -62,7 +62,7 @@ Verify SDK by click on button "Verify Game". This shows you that you have correc
 Submit game - click on button REQUEST ACTIVATION
 
 # FAQ
-<p>How to upload a file?</p>
+<p>How to upload a game files?</p>
 <p><b>Answer</b>: When your game is ready to upload, you need to compress all game files to .ZIP file - Root folder of .ZIP file must include index.html and game files</p>
 
 # Support:
