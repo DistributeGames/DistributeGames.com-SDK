@@ -52,7 +52,8 @@ sdk.showBanner();
 </code></pre>
 
 # STEP 3:
-Now you can upload the game, Go to Game Management > My games > Select you game > Drop file to upload.
+Now you can upload the game (Root folder of .ZIP file must include index.html and game files)
+Go to Game Management > My games > Select you game > Drop file to upload.
 
 # STEP 4:
 Verify SDK by click on button "Verify Game". This shows you that you have correctly done integration and ready to publish.
@@ -63,6 +64,10 @@ Submit game - click on button REQUEST ACTIVATION
 # Support:
 If you have any technical questions or comments, please email us at:
 info@distributegames.com
+
+# FAQ
+How to upload a file?
+Answer: When your game is ready to upload, you need to compress all game files to .ZIP file - Root folder of .ZIP file must include index.html and game files
 
 Or simply check documentation on:
 https://distributegames.com/sdk
